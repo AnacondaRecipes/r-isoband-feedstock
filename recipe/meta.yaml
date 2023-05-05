@@ -42,6 +42,7 @@ requirements:
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
+    - {{ namtive }}gcc-libs-core   # [win]
 
 test:
   commands:
